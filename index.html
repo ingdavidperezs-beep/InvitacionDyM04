@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Invitación | David & María</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Great+Vibes&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Playfair Display', serif;
+      background: #000;
+      min-height: 100vh;
+    }
+
+    .invitation {
+      position: relative;
+      background-image: url('WhatsApp Image 2026-01-02 at 10.58.16.jpeg');
+      background-size: cover;
+      background-position: 48% center;
+      background-repeat: no-repeat;
+      max-width: 430px;
+      width: 100%;
+      min-height: 100vh;
+      margin: auto;
+      color: rgb(242, 221, 153);
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      text-align: center;
+    }
+
+    /* Overlay suave */
+    .invitation::before {
+   content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  pointer-events: none;
+    }
+
+    .content {
+  padding-top: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 40px;
+  margin-bottom: 30px;
+    }
+
+    .subtitle {
+      font-size: 0.85em;
+      letter-spacing: 2px;
+      margin-bottom: 20px;
+    }
+
+    .names {
+      font-family: 'Great Vibes', cursive;
+      font-size: 3.2em;
+      margin: 20px 0 30px;
+      color: rgb(242, 221, 153);
+    }
+
+    .date {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+      font-size: 1em;
+      letter-spacing: 2px;
+    }
+
+    .day {
+      font-size: 2.2em;
+      font-weight: 900;
+    }
+
+    .time {
+      margin: 15px 0 30px;
+      font-size: 1.2em;
+    }
+
+    .info {
+      font-size: 0.95em;
+      line-height: 1.7;
+      margin-bottom: 30px;
+    }
+
+    .buttons {
+  display: flex;
+  justify-content: center;
+    }
+    
+.big-number {
+  font-size: 1.8em;
+  font-weight: 600;
+  margin: 0 4px;
+}
+    .btn {
+  display: block;
+  width: 80%;
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: center;
+    }
+
+    .btn.secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 80%;
+  max-width: 320px;
+
+  padding: 14px 22px;
+  border-radius: 999px;
+
+  background: rgba(242, 221, 153, 0.50);
+  border: 1px solid rgba(242, 221, 153, 0.4);
+
+  color: rgb(242, 221, 153);
+  font-size: 0.95em;
+  font-weight: 600;
+
+  text-align: center;
+    }
+
+    /* Música oculta */
+    .music {
+      display: none;
+    }
+
+    @media (max-width: 480px) {
+      .names { font-size: 2.7em; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Música de fondo (YouTube) -->
+  <iframe class="music" width="0" height="0"
+    src="https://www.youtube.com/embed/6hKp4oY8L7w?autoplay=1&loop=1&playlist=6hKp4oY8L7w"
+    frameborder="0"
+    allow="autoplay">
+  </iframe>
+
+  <div class="invitation">
+    <div class="content">
+      <div class="subtitle">NOS COMPLACE INVITARTE A ACOMPAÑARNOS
+        EN LA CELEBRACIÓN DE NUESTRO TÉ DE COCINA</div>
+
+      <div class="names">María y David</div>
+
+      <div class="date">
+        <span>DOMINGO</span>
+        <span class="day">01</span>
+        <span>FEBRERO</span>
+      </div>
+
+      <div class="time">1:00 P.M.
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+         <br />
+         <br />
+          <br />
+                 <br />
+          <br />
+                  <br />
+      </div>
+      <div class="buttons">
+        <a class="btn secondary" href="https://waze.com/ul/hd1gcx8pfc" target="_blank">📍 Ver ubicación</a>
+      </div>
+      <div class="info">
+        <br />
+        SAN RAFAEL DE NARANJO RANCHO DE MACHO
+      </div>
+
+ 
+      
+      <div class="info">
+          HEMOS RESERVADO <span class="big-number">1</span> ESPACIO
+      </div>
+      
+      <div class="rsvp">
+       CONFIRMAR ANTES DEL <span class="big-number">20</span> DE ENERO<br />
+        8769-9267 | 6167-9408 <br />
+        <br />
+        EN TU COMPAÑÍA RECONOCEMOS EL MAYOR VALOR; CUALQUIER OBSEQUIO QUE GUSTES OFRECERNOS SERÁ RECIBIDO CON SINCERO AGRADECIMIENTO Y GRAN APRECIO.
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
